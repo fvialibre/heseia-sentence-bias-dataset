@@ -1,37 +1,67 @@
-# HESEIA Sentence Bias Dataset
+# version 1
 
-This repository contains the datasets collected during the teacher training course HESEIA Sentence Bias (Tools for Exploring Biases and Artificial Intelligence). organized by Vía Libre, the Ministry of Education, and FAMAF-UNC. The course had an initial enrollment of 370 participating teachers, who also involved 5,000 students in building a dataset that reflects stereotypes present in Argentina. The datasets include anonymized CSV files of data logged during our 5-month long course with high school teachers in Córdoba, Argentina, during 2024.
+Cantidad de entradas	12276
 
-The data collection process was designed collaboratively, in close coordination with the teachers. As part of this approach, an informed consent form was developed, which you can access [here](https://docs.google.com/document/d/1v7XTX7pFJ8SUv0JbwY5yXsISH61k5GRWdDqWz6PFrls/edit?usp=sharing).
-It is important to emphasize that the creation of the data was carried out through a collective construction process, avoiding extractivist practices. 
+Cantidad de entradas con numeros	242
 
-For this reason, beyond its value as a resource, it is essential to understand the context and methodology behind its development.
+Cantidad de entradas duplicadas	0
 
-If you would like to learn more about the course and its implementation, you can access further information [here](https://www.vialibre.org.ar/masiva-convocatoria-al-curso-de-extension/).
-This project was made possible thanks to the support of f<A+i>r de Alliance, the Data Empowerment Fund, Mozilla's Data Futures Lab, and Google Academic.
+Cantidad de Palabras	91490
 
+Cantidad de palabras unicas	5581
 
-## Contents
+Cantidad de sesgos en la columna tipo_de_sesgo_explorado	19331
 
-- `raw_dataset/`: Directory containing the raw anonymized CSV files.
-<!-- - `auto_enriched_dataset/`: Directory containing the automatically enriched anonymized CSV files.
-- `human_enriched_dataset/`: Directory containing the human enriched anonymized CSV files. -->
-- `README.md`: This file.
+Cantidad de sesgos unicos en la columna tipo_de_sesgo_explorado	461
 
-## Description
+cantidad de entradas sin edad, genero o escuela 5073
 
-The datasets were collected as part of a study on sentence bias in educational settings. They include various anonymized data points recorded during interactions with high school teachers over a period of five months.
+cantidad por genero
+NaN    5073
+F      3457
+M      3345
+X       401
+Name: count, dtype: int64
 
-<!-- The datasets are available in three versions: raw, automatically enriched, and human enriched. -->
+cantidad de cada Rango Etario
 
-## Usage
+14-17    4351
+18-24    1211
+41-50     505
+10-13     445
+31-40     253
+51-60     200
+61+       129
+25-30      89
+Name: count, dtype: int64
 
-To use the datasets, simply clone this repository and access the CSV files in the respective directories.
+Cantidad de Tokens id unicos	1447
 
-```bash
-git clone https://github.com/fvialibre/heseia-sentence-bias-dataset.git
-cd heseia-sentence-bias-dataset
-```
+Promedio de entradas por token_id	8.483759502
+
+Mediana de entradas por token_id	4
+
+Cantidad de escuelas unicas	188
+
+Cantidad de palabras en la lista de palabras	40167
+
+Cantidad de palabras unicas en la lista de palabras	6316
+
+Cantidad de Bigramas en frases	79553
+
+Cantidad de Bigramas Unicos en frases	18192
+
+Cantidad de Trigramas en fraces	67280
+
+Cantidad de Trigramas unicos en fraces	26258
+
+![1](imagenes/histograma_bigramas.png)
+![2](imagenes/histograma_edades.png)
+![3](imagenes/histograma_trigramas.png)
+![4](imagenes/histograma_unigramas.png)
+![5](imagenes/word_frecuency_vs_rank.png)
+![6](imagenes/zipf.png)
+
 
 ## License
 
