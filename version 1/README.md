@@ -1,5 +1,16 @@
 # version 1
 
+se normaliza las fraces:
+
+- separa los signos de puntuacion del texto ej: "hola," -> " hola , "
+- pasa todo a minuscula
+- remplaza caracteres no ASCII por sus equivalentens en ASQUII
+- elimina expacios repetidos y normailaza todos los espacios
+- remplaza '( * )' por '*'
+se elimina los duplicados exactos
+
+se elimina las entradas cuya lista de palabras fuera vacia
+
 Cantidad de entradas	12276
 
 Cantidad de entradas con numeros	242
