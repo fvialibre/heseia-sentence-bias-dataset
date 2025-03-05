@@ -1,37 +1,46 @@
-# HESEIA Sentence Bias Dataset
+# version raw
 
-This repository contains the datasets collected during the teacher training course HESEIA Sentence Bias (Tools for Exploring Biases and Artificial Intelligence). organized by Vía Libre, the Ministry of Education, and FAMAF-UNC. The course had an initial enrollment of 370 participating teachers, who also involved 5,000 students in building a dataset that reflects stereotypes present in Argentina. The datasets include anonymized CSV files of data logged during our 5-month long course with high school teachers in Córdoba, Argentina, during 2024.
+Cantidad de entradas	14703
+Cantidad de entradas con numeros	297
+Cantidad de entradas duplicadas	2127
+Cantidad de Palabras	108585
+Cantidad de palabras unicas	6551
+Cantidad de sesgos en la columna tipo_de_sesgo_explorado	23015
+Cantidad de sesgos unicos en la columna tipo_de_sesgo_explorado	610
+cantidad de entradas sin edad, escuela o genero  6018
+cantidad por genero	gender
+NaN    6018
+F      4183
+M      4001
+X       501
+Name: count, dtype: int64
+cantidad de cada Rango Etario	age
+14-17    5359
+18-24    1400
+10-13     576
+41-50     565
+31-40     302
+51-60     216
+61+       145
+25-30      96
+Name: count, dtype: int64
+Cantidad de Tokens id unicos	1457
+Promedio de entradas por token_id	10.09128346
+Mediana de entradas por token_id	5
+Cantidad de escuelas unicas	189
+Cantidad de palabras en la lista de palabras	46499
+Cantidad de palabras unicas en la lista de palabras	6547
+Cantidad de Bigramas en frases	96849
+Cantidad de Bigramas Unicos en frases	20335
+Cantidad de Trigramas en fraces	82149
+Cantidad de Trigramas unicos en fraces	28661
 
-The data collection process was designed collaboratively, in close coordination with the teachers. As part of this approach, an informed consent form was developed, which you can access [here](https://docs.google.com/document/d/1v7XTX7pFJ8SUv0JbwY5yXsISH61k5GRWdDqWz6PFrls/edit?usp=sharing).
-It is important to emphasize that the creation of the data was carried out through a collective construction process, avoiding extractivist practices. 
-
-For this reason, beyond its value as a resource, it is essential to understand the context and methodology behind its development.
-
-If you would like to learn more about the course and its implementation, you can access further information [here](https://www.vialibre.org.ar/masiva-convocatoria-al-curso-de-extension/).
-This project was made possible thanks to the support of f<A+i>r de Alliance, the Data Empowerment Fund, Mozilla's Data Futures Lab, and Google Academic.
-
-
-## Contents
-
-- `raw_dataset/`: Directory containing the raw anonymized CSV files.
-<!-- - `auto_enriched_dataset/`: Directory containing the automatically enriched anonymized CSV files.
-- `human_enriched_dataset/`: Directory containing the human enriched anonymized CSV files. -->
-- `README.md`: This file.
-
-## Description
-
-The datasets were collected as part of a study on sentence bias in educational settings. They include various anonymized data points recorded during interactions with high school teachers over a period of five months.
-
-<!-- The datasets are available in three versions: raw, automatically enriched, and human enriched. -->
-
-## Usage
-
-To use the datasets, simply clone this repository and access the CSV files in the respective directories.
-
-```bash
-git clone https://github.com/fvialibre/heseia-sentence-bias-dataset.git
-cd heseia-sentence-bias-dataset
-```
+![1](imagenes/histograma_bigramas.png)
+![2](imagenes/histograma_edades.png)
+![3](imagenes/histograma_trigramas.png)
+![4](imagenes/histograma_unigramas.png)
+![5](imagenes/word_frecuency_vs_rank.png)
+![6](imagenes/zipf.png)
 
 ## License
 
