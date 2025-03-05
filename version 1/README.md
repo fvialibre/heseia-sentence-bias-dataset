@@ -7,6 +7,7 @@ se normaliza las fraces:
 - remplaza caracteres no ASCII por sus equivalentens en ASQUII
 - elimina expacios repetidos y normailaza todos los espacios
 - remplaza '( * )' por '*'
+  
 se elimina los duplicados exactos
 
 se elimina las entradas cuya lista de palabras fuera vacia
