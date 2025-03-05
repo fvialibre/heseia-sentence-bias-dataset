@@ -1,5 +1,7 @@
 # version extendida 1
 
+en cada entrada en la columna frases en el dataset v1, se remplazo * por las palabras en la columna lista de palabras
+
 Cantidad de entradas	30177
 
 Cantidad de entradas con numeros	915
