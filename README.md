@@ -1,3 +1,5 @@
+[📝 White Paper](https://docs.google.com/document/d/1pUloLMaU0ADegod6ZGJ5mEFjH-UOZ8sL8inPJayiYcc/edit?tab=t.0#heading=h.dg8y8cb2lti2)
+
 # HESEIA Sentence Bias Dataset
 
 This repository contains the datasets collected during the teacher training course HESEIA Sentence Bias (Tools for Exploring Biases and Artificial Intelligence). organized by Vía Libre, the Ministry of Education, and FAMAF-UNC. The course had an initial enrollment of 370 participating teachers, who also involved 5,000 students in building a dataset that reflects stereotypes present in Argentina. The datasets include anonymized CSV files of data logged during our 5-month long course with high school teachers in Córdoba, Argentina, during 2024.
