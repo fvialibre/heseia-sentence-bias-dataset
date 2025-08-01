@@ -1,60 +1,62 @@
-# version raw
+# Raw Version
 
-Cantidad de entradas	14703
+Number of entries: 14,703
 
-Cantidad de entradas con numeros	297
+Number of entries with numbers: 297
 
-Cantidad de entradas duplicadas	2127
+Number of duplicate entries: 2,127
 
-Cantidad de Palabras	108585
+Total number of words: 108,585
 
-Cantidad de palabras unicas	6551
+Number of unique words: 6,551
 
-Cantidad de sesgos en la columna tipo_de_sesgo_explorado	23015
+Number of biases in the `tipo_de_sesgo_explorado` column: 23,015
 
-Cantidad de sesgos unicos en la columna tipo_de_sesgo_explorado	610
+Number of unique biases in the `tipo_de_sesgo_explorado` column: 610
 
-cantidad de entradas sin edad, escuela o genero  6018
+Number of entries without age, school, or gender: 6,018
 
-cantidad por genero	
+Entries by gender:
 
-NaN    6018
-F      4183
-M      4001
-X       501
-Name: count, dtype: int64
+| Gender | Count |
+|--------|-------|
+| NaN    | 6,018 |
+| F      | 4,183 |
+| M      | 4,001 |
+| X      |   501 |
 
-cantidad de cada Rango Etario	
+Entries by age range:
 
-14-17    5359
-18-24    1400
-10-13     576
-41-50     565
-31-40     302
-51-60     216
-61+       145
-25-30      96
-Name: count, dtype: int64
+| Age Range | Count |
+|-----------|-------|
+| 14-17     | 5,359 |
+| 18-24     | 1,400 |
+| 10-13     |   576 |
+| 41-50     |   565 |
+| 31-40     |   302 |
+| 51-60     |   216 |
+| 61+       |   145 |
+| 25-30     |    96 |
 
-Cantidad de Tokens id unicos	1457
+Number of unique token IDs: 1,457
 
-Promedio de entradas por token_id	10.09128346
+Average entries per token ID: 10.09
 
-Mediana de entradas por token_id	5
+Median entries per token ID: 5
 
-Cantidad de escuelas unicas	189
+Number of unique schools: 189
 
-Cantidad de palabras en la lista de palabras	46499
+Number of words in the word list: 46,499
 
-Cantidad de palabras unicas en la lista de palabras	6547
+Number of unique words in the word list: 6,547
 
-Cantidad de Bigramas en frases	96849
+Number of bigrams in sentences: 96,849
 
-Cantidad de Bigramas Unicos en frases	20335
+Number of unique bigrams in sentences: 20,335
 
-Cantidad de Trigramas en fraces	82149
+Number of trigrams in sentences: 82,149
 
-Cantidad de Trigramas unicos en fraces	28661
+Number of unique trigrams in sentences: 28,661
 
 ![1](imagenes/histograma_bigramas.png)
 ![2](imagenes/histograma_edades.png)
